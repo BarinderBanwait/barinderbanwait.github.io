@@ -12,7 +12,7 @@ Click [here](https://barinderbanwait.github.io/cv/bsb_cv.pdf) for my CV. Click t
 
 :mailbox_with_mail: barinder.s.banwait - AT - gmail.com
 
-:lock_with_ink_pen: [My PGP public key](link)
+:lock_with_ink_pen: [My PGP public key](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xe04e3d10c3178bef)
 
 :envelope: Barinder S. Banwait, Department of Mathematics and Statistics, 111 Cummington Mall # 140C, Boston, MA 02215, USA
 
