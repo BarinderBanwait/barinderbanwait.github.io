@@ -11,4 +11,6 @@ Click the links on the left for more.
 ## Contact
 
 :mailbox_with_mail: barinder.s.banwait - AT - gmail.com
-<i class="icon-github"></i> [barinderbanwait](https://github.com/barinderbanwait)
+<p>
+<i class="icon-github fa-lg"></i> [barinderbanwait](https://github.com/barinderbanwait)
+</p>
