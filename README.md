@@ -1,3 +1,9 @@
+---
+layout: default
+title: "About"
+logo: "mugshots/mugshot_cycling.jpg"
+---
+
 ## Breaking
 
 This [link](https://barinderbanwait.github.io/math) should link to the math.
