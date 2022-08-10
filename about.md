@@ -12,9 +12,6 @@ Click [here](https://barinderbanwait.github.io/cv/bsb_cv.pdf) for my CV. Click t
 
 :mailbox_with_mail: barinder.s.banwait - AT - gmail.com
 
-:envelope: Barinder S. Banwait
-    Department of Mathematics and Statistics
-    Department of Mathematics and Statistics
-    Department of Mathematics and Statistics
+:envelope: Barinder S. Banwait, Department of Mathematics and Statistics, 111 Cummington Mall # 140C, Boston, MA 02215, USA
 
-<a href="https://github.com/barinderbanwait"><i class="fa-brands fa-github fa-5x" style="color:black"></i></a>   <a href="https://www.linkedin.com/in/barinderbanwait"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+<a href="https://github.com/barinderbanwait"><i class="fa-brands fa-github fa-5x" style="color:black"></i></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/barinderbanwait"><i class="fa-brands fa-linkedin fa-5x"></i></a>
