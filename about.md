@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "About"
-logo: "mugshots/mugshot_cycling.jpg"
 description: "Photo courtesy of blah"
 permalink: /about/
 ---
