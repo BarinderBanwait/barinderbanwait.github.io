@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Page
 
 This [link](https://barinderbanwait.github.io/math) should link to the math.
 
