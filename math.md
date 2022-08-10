@@ -6,4 +6,4 @@ permalink: /math/
 
 ## The math
 
-Blah blah.
+Blah blah blah..
