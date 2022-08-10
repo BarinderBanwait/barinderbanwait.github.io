@@ -7,6 +7,6 @@ permalink: /tabla/
 
 ## The tabla
 
-![](mugshots/tabla_lewisham.jpeg)
+![](/mugshots/tabla_lewisham.jpeg)
 
 Some text for the image.

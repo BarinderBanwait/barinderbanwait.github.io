@@ -20,7 +20,7 @@
 
         {% if page.logo %}
           <img src="{{page.logo | relative_url}}" alt="Logo" />
-          <p>{{ page.description | default: site.github.project_tagline }}</p>
+          <p>{{ page.description | default: " " }}</p>
         {% else %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
           <p>{{ site.description | default: site.github.project_tagline }}</p>
