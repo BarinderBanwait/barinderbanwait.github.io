@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 title: Barinder S. Banwait
 logo: mugshots/mugshot_cycling.jpg
-description: "Photo courtesy of Duncan Robinson"
 show_downloads: false
 plugins:
   - jemoji
