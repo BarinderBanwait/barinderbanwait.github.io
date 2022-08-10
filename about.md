@@ -13,4 +13,9 @@ Click the links on the left for more.
 :mailbox_with_mail: barinder.s.banwait - AT - gmail.com
 <p>
 <i class="fa-brands fa-github fa-lg"></i>
-</p> [barinderbanwait](https://github.com/barinderbanwait)
+<a href="https://github.com/barinderbanwait">barinderbanwait</a>
+</p>
+
+<p>
+<a href="https://www.linkedin.com/in/barinderbanwait"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+</p>
