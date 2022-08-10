@@ -19,18 +19,18 @@
 
         {% if page.logo %}
           <img src="{{page.logo | relative_url}}" alt="Logo" />
+          <p>{{ page.description | default: site.github.project_tagline }}</p>
         {% else %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.url }}">About</a></p>
+        <p class="view"><a href="{% link about.md %}">About</a></p>
         <p class="view"><a href="{% link math.md %}">Mathematics</a></p>
         <p class="view"><a href="{% link tabla.md %}">Tabla</a></p>
         <p class="view"><a href="{% link poetry.md %}">Poetry</a></p>

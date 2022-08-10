@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "About"
-description: "Photo courtesy of blah"
 permalink: /about/
 ---
 
