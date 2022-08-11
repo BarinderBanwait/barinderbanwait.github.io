@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "poetry"
+logo: "main_photo.jpg"
 permalink: /poetry/
 ---
 
@@ -10,6 +11,6 @@ permalink: /poetry/
 
 1. [Abfahrt aus Heidelberg, oder: Rückkehr](rueckkehr.md), Dezember 2021
 
-### ਵਾਰੀ
+### ਪੰਜਾਬੀ
 
-1. [ਇੱਕ ਵਾਰੀ ਤੁਸੀਂ ਮੈਨੰ ੂ ਦੱਸਆ ਸੀ](rueckkehr.md), Dezember 2021
+1. [ਇੱਕ ਵਾਰੀ ਤੁਸੀਂ ਮੈਨੂੰ ਦੱਸਿਆ ਸੀ](bib.md), March 2022. Presented at _Wort & Klang_, Heidelberg, April 2022. Hosted by [Absatz Magazin](https://www.absatz-magazin.de/)
