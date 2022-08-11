@@ -27,4 +27,4 @@ I also contribute to development of the [_L-functions and modular forms database
 
 ### In progress
 
-1. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyn Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt.
+1. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt.
