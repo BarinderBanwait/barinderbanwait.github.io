@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "rückkehr"
+logo: "poetry/heidelberg.jpg"
+description: "The Neckar river in Heidelberg."
 permalink: /poetry/rueckkehr
 ---
 

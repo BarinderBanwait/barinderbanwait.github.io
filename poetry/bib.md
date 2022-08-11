@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Ek Vari tusi menu dassia si"
+logo: "poetry/beas.jpg"
+description: "The Beas river in Punjab, where the form for this poem took shape, while scattering my Grandmother's ashes."
 permalink: /poetry/bib
 ---
 
