@@ -5,8 +5,16 @@ logo: "mugshots/tabla.jpeg"
 permalink: /tabla/
 ---
 
-## The tabla
+## Tabla
 
-![](/mugshots/tabla_lewisham.jpeg)
+I am a student of [tabla](https://en.wikipedia.org/wiki/Tabla). I keep a regular practice, often accompany shabads in Gurbani Kirtan, and occassionally play in the khayal North Indian classical style, accompanying instruments such as sitar, bansuri, and sarod.
 
-Some text for the image.
+If you play in any of these styles, or would like me to play at your event, then feel free to contact me.
+
+Since I do not entirely ascribe to the [Guru-shishya parampara](https://en.wikipedia.org/wiki/Guru-shishya_tradition), and as a result of having lived in many different places over the years, I have acquired a list of teachers, as opposed to only one.
+
+I have learned primarily Delhi and Farrukhabad styles, from the following Gurus and teachers: Pandit Udit Pankhania, Pandit Yogesh Samsi, Pandit Parimal Chakrabarty, Pandit Nayan Ghosh, Pandit Prabhu Edouard, Ustad Harkirat Rayatt, Ustad Gurdain Rayatt, and Pandit Anup Joshi,
+
+I have also learned some material from the Benaras Gharana, through Ustad Surdarshan Singh Chana.
+
+My deepest respects to these Gurus and teachers who have shown me this fascinating world where numbers, harmony, and poetry all merge into one artform :pray:
