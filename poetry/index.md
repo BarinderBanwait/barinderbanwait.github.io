@@ -13,4 +13,4 @@ permalink: /poetry/
 
 ### ਪੰਜਾਬੀ
 
-1. [ਇੱਕ ਵਾਰੀ ਤੁਸੀਂ ਮੈਨੂੰ ਦੱਸਿਆ ਸੀ](bib.md), March 2022. Presented at _Wort & Klang_, Heidelberg, April 2022. Hosted by [Absatz Magazin](https://www.absatz-magazin.de/)
+1. [ਇੱਕ ਵਾਰੀ ਤੁਸੀਂ ਮੈਨੂੰ ਦੱਸਿਆ ਸੀ](bib.md), March 2022. Presented at _Wort & Klang_, Heidelberg, April 2022. Hosted by [Absatz Magazin](https://www.absatz-magazin.de/).
