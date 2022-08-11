@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "poetry"
-logo: "main_photo.jpg"
+logo: "poetry/main_photo.jpg"
 permalink: /poetry/
 ---
 
