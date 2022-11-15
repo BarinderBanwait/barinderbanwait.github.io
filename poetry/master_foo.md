@@ -2,7 +2,7 @@
 layout: default
 title: "Master Foo and the sparkling water"
 logo: "poetry/sparkling_water.jpg"
-description: "A gass of sparkling water."
+description: "A glass of sparkling water."
 permalink: /poetry/master_foo
 ---
 
