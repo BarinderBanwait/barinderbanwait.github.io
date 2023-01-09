@@ -10,7 +10,7 @@ Click [here](https://barinderbanwait.github.io/cv/bsb_cv.pdf) for my CV. Click t
 
 ## Contact
 
-:mailbox_with_mail: barinder.s.banwait - AT - gmail.com
+:mailbox_with_mail: barinder.s.banwait - AT - gmail.com; barinder - AT - bu.edu
 
 :lock_with_ink_pen: [My PGP public key](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xe04e3d10c3178bef)
 
