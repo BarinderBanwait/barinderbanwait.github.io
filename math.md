@@ -15,8 +15,8 @@ I also contribute to development of the [_L-functions and modular forms database
 
 ### Papers (most recent first)
 
-1. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt. Preprint. [arxiv](https://arxiv.org/abs/2301.02222). 
-2. **Modularity over C implies modularity over Q**. [arxiv](https://arxiv.org/abs/2212.14412).
+1. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt. Preprint, 2023. [arxiv](https://arxiv.org/abs/2301.02222). 
+2. **Modularity over C implies modularity over Q**. Preprint, 2023. [arxiv](https://arxiv.org/abs/2212.14412).
 3. **Cyclic isogenies of elliptic curves over fixed quadratic fields**, with Filip Najman and Oana Padurariu. 2022. Submitted. [arxiv](https://arxiv.org/abs/2206.08891). [Video](https://www.birs.ca/events/2022/5-day-workshops/22w5162/videos/watch/202206201033-Banwait.html)
 4. **Explicit isogenies of prime degree over number fields**, with Maarten Derickx. 2022. Submitted. [arxiv](https://arxiv.org/abs/2203.06009)
 5. **Explicit isogenies of prime degree over quadratic fields**. With an appendix written jointly with Maarten Derickx. _International Mathematics Research Notices_, 2022. [Journal link](https://doi.org/10.1093/imrn/rnac134). [arxiv](https://arxiv.org/abs/2101.02673). [Video](https://youtu.be/1FqNekRV_qM)
