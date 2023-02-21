@@ -4,7 +4,7 @@ title: "about"
 permalink: /about/
 ---
 
-### Mathematician. Amateur tabla player. Aspiring poet.
+### Mathematician. Tabla player. Aspiring poet.
 
 Click [here](https://barinderbanwait.github.io/cv/bsb_cv.pdf) for my CV. Click the links in the menu for more.
 
