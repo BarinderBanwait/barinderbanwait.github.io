@@ -16,7 +16,7 @@ I also contribute to development of the [_L-functions and modular forms database
 ### Papers (most recent first)
 
 1. **Towards strong uniformity for isogenies of prime degree**, with Maarten Derickx. 2023. Submitted. [arxiv](https://arxiv.org/abs/2302.08350)
-2. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt. Preprint, 2023. [arxiv](https://arxiv.org/abs/2301.02222). 
+2. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt. [arxiv](https://arxiv.org/abs/2301.02222). To appear, _LMFDB, Computation, and Number Theory (LuCANT)_, 2023.  
 3. **Modularity over C implies modularity over Q**. [arxiv](https://arxiv.org/abs/2212.14412). To appear, _Modularity and the Generalised Fermat Equation_, 2022.
 4. **Cyclic isogenies of elliptic curves over fixed quadratic fields**, with Filip Najman and Oana Padurariu. 2022. Submitted. [arxiv](https://arxiv.org/abs/2206.08891). [Video](https://www.birs.ca/events/2022/5-day-workshops/22w5162/videos/watch/202206201033-Banwait.html)
 5. **Explicit isogenies of prime degree over number fields**, with Maarten Derickx. 2022. Submitted. [arxiv](https://arxiv.org/abs/2203.06009)
