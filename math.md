@@ -15,7 +15,7 @@ I also contribute to development of the [_L-functions and modular forms database
 
 ### Papers (most recent first)
 
-1. **Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves**, with Angelica Babei, AJ Fong, Xiaoyu Huang and Deependra Singh, 2024. Submitted. [arxiv](https://arxiv.org/abs/2412.18576)
+1. **Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves**, with Angelica Babei, AJ Fong, Xiaoyu Huang and Deependra Singh, 2024. To appear, _Advances in Theoretical and Mathematical Physics_, 2025. [arxiv](https://arxiv.org/abs/2412.18576)
 2. **Torsion subgroups of elliptic curves over quadratic fields and a conjecture of Granville**, with Maarten Derickx. _Algorithmic Number Theory Symposium XVI_, 2024. [Journal Link](https://doi.org/10.1007/s40993-024-00591-w)
 3. **Towards strong uniformity for isogenies of prime degree**, with Maarten Derickx. 2023. Submitted. [arxiv](https://arxiv.org/abs/2302.08350)
 4. **Computing nonsurjective primes associated to Galois representations of genus 2 curves**, with Armand Brumer, Hyun Jong Kim, Zev Klagsbrun, Jacob Mayle, Padmavathi Srinivasan, and Isabel Vogt, 2023. _Contemporary Mathematics_, 796. [Journal Link](https://doi.org/10.1090/conm/796)
