@@ -7,7 +7,7 @@ permalink: /math/
 
 ## Mathematics
 
-I am currently a postdoctoral researcher in [Jennifer Balakrishnan's](http://math.bu.edu/people/jbala/) group at Boston University and a [Visiting Scientist at MIT](https://math.mit.edu/directory/profile.html?pid=2720). My research is funded by the [Simons Foundation](https://simonscollab.icerm.brown.edu/).
+Hello! I am currently a postdoctoral researcher in [Jennifer Balakrishnan's](http://math.bu.edu/people/jbala/) group at Boston University and a [Visiting Scientist at MIT](https://math.mit.edu/directory/profile.html?pid=2720). My research is funded by the [Simons Foundation](https://simonscollab.icerm.brown.edu/).
 
 I work in Number Theory and Arithmetic Geometry with a computational approach. Most of my research projects have included at least one of [Sage](https://www.sagemath.org/), [Magma](http://magma.maths.usyd.edu.au/magma/), and [PARI/GP](https://pari.math.u-bordeaux.fr/), and some have used all three.
 
