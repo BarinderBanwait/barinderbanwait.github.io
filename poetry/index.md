@@ -2,6 +2,7 @@
 layout: default
 title: "poetry"
 logo: "poetry/main_photo.jpg"
+description: "Presenting 'ਇੱਕ ਵਾਰੀ ਤੁਸੀਂ ਮੈਨੂੰ ਦੱਸਿਆ ਸੀ' at Absatz Magazin in Heidelberg, April 2022."
 permalink: /poetry/
 ---
 

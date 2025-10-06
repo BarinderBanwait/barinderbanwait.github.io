@@ -7,11 +7,11 @@ permalink: /math/
 
 ## Mathematics
 
-Hello! I am currently a postdoctoral researcher in [Jennifer Balakrishnan's](http://math.bu.edu/people/jbala/) group at Boston University and a [Visiting Scientist at MIT](https://math.mit.edu/directory/profile.html?pid=2720). My research is funded by the [Simons Foundation](https://simonscollab.icerm.brown.edu/).
-
-I work in Number Theory and Arithmetic Geometry with a computational approach. Most of my research projects have included at least one of [Sage](https://www.sagemath.org/), [Magma](http://magma.maths.usyd.edu.au/magma/), and [PARI/GP](https://pari.math.u-bordeaux.fr/), and some have used all three.
+I work in Number Theory and Arithmetic Geometry with a computational approach. Most of my research projects have included at least one of [Sage](https://www.sagemath.org/), [Magma](http://magma.maths.usyd.edu.au/magma/), and [PARI/GP](https://pari.math.u-bordeaux.fr/), and some have used all three. Recently I've been interested in using ML and AI tools for number theoretic investigation.
 
 I also contribute to development of the [_L-functions and modular forms database_](https://www.lmfdb.org/).
+
+I'll be joining the [Lodha Mathematical Sciences Institute]() as a Visiting Scientist from November 2025.
 
 ### Papers (most recent first)
 
