@@ -13,6 +13,10 @@ I also contribute to development of the [_L-functions and modular forms database
 
 I'm currently a Research Fellow at the [Lodha Mathematical Sciences Institute](https://www.lmsi.org/) in Mumbai, India.
 
+### Lean4 Formalization projects
+
+1. [**Ramanujan--Nagell**](https://barindersbanwait.com/ramanujan_nagell) in Lean4 (WIP).
+
 ### Papers (most recent first)
 
 1. **On the Visibility category of the Shafarevich--Tate group**, with Jerson Caro and Shiva Chidambaram. 2026. Submitted. [arxiv](https://arxiv.org/abs/2601.21519)
