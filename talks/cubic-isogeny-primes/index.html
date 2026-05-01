@@ -15,23 +15,30 @@
 <div class="reveal">
 <div class="slides">
 
-<section class="title-slide">
-    <h2>Realizing cubic isogeny primes</h2>
-    <p class="subtitle"><em>AI-assisted experiments</em></p>
+<section>
+    <section class="title-slide">
+        <h2>Realizing cubic isogeny primes</h2>
+        <p class="subtitle"><em>AI-assisted experiments</em></p>
 
-    <p class="speaker">Barinder S. Banwait</p>
-    <p class="joint"><small>Joint with Maarten Derickx</small></p>
+        <p class="speaker">Barinder S. Banwait</p>
+        <p class="joint"><small>Joint with Maarten Derickx</small></p>
 
-    <p class="venue">Math+AI workshop &middot; 27 April 2026</p>
+        <p class="venue">Using AI to find examples &middot; 1<sup>st</sup> May 2026<br>
+        Centre de Recherches Math&eacute;matiques, Montr&eacute;al, Canada</p>
 
-    <div class="follow-strip">
-        <figure class="qr">
-            <img src="images/qr_follow_along.png" alt="QR code to slides"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-            <div class="qr-placeholder" style="display:none;">QR</div>
-        </figure>
-        <span class="follow-label">Follow along: <code>barindersbanwait.com/talks/cubic-isogeny-primes</code></span>
-    </div>
+        <div class="follow-strip">
+            <figure class="qr">
+                <img src="images/qr_follow_along.png" alt="QR code to slides"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="qr-placeholder" style="display:none;">QR</div>
+            </figure>
+            <span class="follow-label">Follow along: <code>barindersbanwait.com/talks/cubic-isogeny-primes</code></span>
+        </div>
+    </section>
+
+    <section>
+        <p style="font-size: 1.4em; font-style: italic;">What we really want from you is a discussion of how you used the AI to get some nice results &mdash; the ups and downs and how things played out. Sort of a mingled hacker talk with math research &mdash; I hope that makes sense?</p>
+    </section>
 </section>
 
 <section>
@@ -39,105 +46,290 @@
         <!-- <h3>The uniformity question</h3> -->
         <p>$E/\mathbb{Q}$ elliptic curve.</p>
 
-        <div class="thm-row">
+        <div class="thm-row fragment">
             <figure class="row-photo">
                 <img src="images/barry_mazur.jpg" alt="Barry Mazur, 1992">
-                <figcaption>Mazur, 1992<br><small>G.M. Bergman, CC BY-SA 4.0</small></figcaption>
+                <figcaption>Barry Mazur<br><small>G.M. Bergman, CC BY-SA 4.0</small></figcaption>
             </figure>
             <div class="thm">
                 <div class="thm-title">Theorem (Mazur, 1978)</div>
                 <div class="thm-body">
                     <p>If $E/\mathbb{Q}$ is an elliptic curve admitting a rational $p$-isogeny, then
-                    $$p \in \{2,\,3,\,5,\,7,\,11,\,13,\,17,\,19,\,37,\,43,\,67,\,163\}.$$</p>
+                    $$p \in \{2,\,3,\,5,\,7,\,11,\,13,\,17,\,19,\,37,\,43,\,67,\,163\}$$
+                    $$=: \mathrm{IsogPrimeDeg}(\mathbb{Q}).$$</p>
                 </div>
             </div>
         </div>
 
-        <div class="thm-row">
+        <div class="thm-row fragment">
             <figure class="row-photo">
                 <img src="images/john_cremona.jpg" alt="John Cremona">
-                <figcaption>John Cremona<br><small>(my advisor)</small></figcaption>
+                <figcaption>John Cremona<br><small>Uni Warwick</small> </figcaption>
             </figure>
             <div class="thm que">
-                <div class="thm-title">Question (Cremona)</div>
+                <div class="thm-title">Question (Cremona, 2010)</div>
                 <div class="thm-body">
                     <p>Mazur did this for $\mathbb{Q}$ in '78 &mdash; can you do it for any other number field?</p>
                 </div>
             </div>
         </div>
 
-        <p><small>&darr; Mazur's list</small></p>
     </section>
     <section>
-        <h3>Mazur's list</h3>
-        <p>$\mathrm{IsogPrimeDeg}(\mathbb{Q}) = \{2, 3, 5, 7, 11, 13, 17, 19, 37, 43, 67, 163\}.$</p>
-        <p>Twelve primes. The largest, $163$, is famously connected to $\mathbb{Q}(\sqrt{-163})$ having class number one.</p>
+        <div class="thm">
+            <div class="thm-title">Theorem (B., 2021)</div>
+            <div class="thm-body">
+                <p>Assuming GRH, we have the following.</p>
+                $$\begin{aligned}
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\sqrt{7})) &= \mathrm{IsogPrimeDeg}(\mathbb{Q})\\
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\sqrt{-10})) &= \mathrm{IsogPrimeDeg}(\mathbb{Q})\\
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\sqrt{5})) &= \mathrm{IsogPrimeDeg}(\mathbb{Q}) \cup \left\{23, 47\right\}
+                \end{aligned}$$
+            </div>
+        </div>
+        <p class="fragment">Actually this is a corollary of the following.</p>
+        <div class="thm fragment">
+            <div class="thm-title">Theorem (B., 2021)</div>
+            <div class="thm-body">
+                <p>Let $K$ be a quadratic field which is not imaginary quadratic of class number $1$. Then there is an algorithm which computes a superset of $\mathrm{IsogPrimeDeg}(K)$.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="thm">
+            <div class="thm-title">Theorem (B.&ndash;Derickx, 2022)</div>
+            <div class="thm-body">
+                <p>Let $K$ be a number field that does not contain the Hilbert class field of an imaginary quadratic field. Then there is an algorithm that computes a superset of $\mathrm{IsogPrimeDeg}(K)$.</p>
+            </div>
+        </div>
+        <div class="thm fragment">
+            <div class="thm-title">Theorem (B.&ndash;Derickx, 2022)</div>
+            <div class="thm-body">
+                <p>Assuming GRH, we have the following.</p>
+                $$\begin{aligned}
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\zeta_7)^+) &= \mathrm{IsogPrimeDeg}(\mathbb{Q})\\
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\alpha)) &= \mathrm{IsogPrimeDeg}(\mathbb{Q}) \cup \left\{29\right\}\\
+                \mathrm{IsogPrimeDeg}(\mathbb{Q}(\beta)) &= \mathrm{IsogPrimeDeg}(\mathbb{Q}),
+                \end{aligned}$$
+                <p>where $\alpha^3 - \alpha^2 - 2\alpha - 20 = 0$ and $\beta^3 - \beta^2 - 3\beta + 1 = 0$.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="thm que">
+            <div class="thm-title">Question</div>
+            <div class="thm-body">
+                <ol>
+                    <li class="fragment">How can we go from a superset of $\mathrm{IsogPrimeDeg}(K)$ to the set itself?</li>
+                    <li class="fragment">Can we compute $\mathrm{IsogPrimeDeg}(K)$ for all <span class="fragment" style="color: red;">cubic</span> number fields in the LMFDB?</li>
+                </ol>
+            </div>
+        </div>
+        <p class="fragment">Why cubic? Because for every cubic field, $\mathrm{IsogPrimeDeg}(K)$ is finite.</p>
     </section>
 </section>
 
 <section>
-    <h3>Why $d = 3$</h3>
-    <ul>
-        <li>A cubic field contains no imaginary quadratic subfield.</li>
-        <li>So the usual non-CM caveat is automatic.</li>
-        <li>Cleaner than $d = 2$.</li>
-    </ul>
+    <section>
+        <div class="thm que">
+            <div class="thm-title">Question</div>
+            <div class="thm-body">
+                <p>Given $K$, is $29$ an isogeny prime for $K$?</p>
+                <p class="fragment">i.e. does the modular curve $X_0(29)$ admit a noncuspidal $K$-rational point?</p>
+            </div>
+        </div>
+        <div class="thm fragment">
+            <div class="thm-title">Theorem (B.&ndash;Derickx)</div>
+            <div class="thm-body">
+                <p>Suppose $p = 23$, $29$ or $31$. Let $K$ be a cubic field such that $X_0(p)$ admits a noncuspidal $K$-rational point. Then we have the following.</p>
+                <ol>
+                    <li>The discriminant $\Delta_K$ of $K$ is negative.</li>
+                    <li class="fragment">There is a finite set of explicitly computable hyperelliptic curves over $\mathbb{Q}$ of genera $2$ or $3$ such that the quadratic twist at $\Delta_K$ of at least one of them admits a $\mathbb{Q}$-rational point.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <p>For $p = 29$, there are 5 curves:</p>
+        <div style="font-size: 0.55em;">
+        $$\begin{aligned}
+        H_1 : y^2 &= -28x^8 - 368x^7 - 208x^6 + 13552x^5 + 14456x^4 \\
+                 &\quad - 371088x^3 - 115984x^2 + 5414928x - 11303036 \\
+        & \\
+        H_2 : y^2 &= -28x^8 + 32x^7 - 2224x^6 + 10560x^5 + 46912x^4 \\
+                 &\quad + 40960x^3 - 675072x^2 - 2022400x - 1538048 \\
+        & \\
+        H_3 : y^2 &= -4x^6 + 152x^5 - 2480x^4 + 21760x^3 - 106544x^2 \\
+                 &\quad + 269056x - 270080 \\
+        & \\
+        H_4 : y^2 &= -108x^6 - 680x^5 + 3756x^4 + 70480x^3 + 110060x^2 \\
+                 &\quad - 1337000x - 7539244 \\
+        & \\
+        H_5 : y^2 &= -4x^8 + 56x^7 + 16x^6 - 2304x^5 - 18368x^4 \\
+                 &\quad - 64512x^3 - 112832x^2 - 91392x - 27392
+        \end{aligned}$$
+        </div>
+        <p style="font-size: 0.75em;">$H_1, H_2, H_5$ have genus $3$ (degree $8$); $H_3, H_4$ have genus $2$ (degree $6$).</p>
+    </section>
+
+    <section>
+        <img src="images/granville.png" alt="Granville" style="max-height: 550px; max-width: 100%;">
+    </section>
+
+    <section>
+        <img src="images/ants_torsion.png" alt="ANTS torsion paper" style="max-height: 420px; max-width: 100%;">
+        <p class="fragment" style="font-size: 0.75em;">This paper implemented many techniques for showing that twists of hyperelliptic modular curves don't admit a $\mathbb{Q}$-point (<code>TwoCoverDescent</code>, <code>MWSieve</code>, <code>IsELS</code>, <code>EllipticCurveChabauty</code>, <code>Chabauty0</code>).</p>
+        <p class="fragment" style="font-size: 0.75em;">We use this to show that many cubic fields $K$ provably do <em>not</em> admit $29$ as an isogeny prime. We add this to a growing <strong>ground truth</strong> dataset.</p>
+    </section>
+
+    <section>
+        <h3>Ground-truth dataset</h3>
+        <div class="flowchart">
+            <div class="flow-node input">INPUT $K$ (cubic field, $\Delta_K < 0$)</div>
+            <div class="flow-arrow">&darr;</div>
+            <div class="flow-node question">Can Magma show twists of the 5 curves do not have a $\mathbb{Q}$-point?</div>
+            <div class="flow-branches">
+                <div class="flow-branch">
+                    <div class="flow-arrow-label">Yes &darr;</div>
+                    <div class="flow-node label-no">Label: 'NO'</div>
+                </div>
+                <div class="flow-branch">
+                    <div class="flow-arrow-label">No &darr;</div>
+                    <div class="flow-node question">Does a point search up to height 50 show that $\#X_0(29)(K) > 2$?</div>
+                    <div class="flow-branches">
+                        <div class="flow-branch">
+                            <div class="flow-arrow-label">Yes &darr;</div>
+                            <div class="flow-node label-yes">Label: 'YES'</div>
+                        </div>
+                        <div class="flow-branch">
+                            <div class="flow-arrow-label">No &darr;</div>
+                            <div class="flow-node label-unknown">Label: 'UNKNOWN'</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fragment" style="margin-top: 1em;"><strong>Question:</strong> Can we train an ML model to detect cubic fields that admit $29$ as an isogeny prime?</p>
+    </section>
 </section>
 
 <section>
     <section>
-        <h3>The tool: <code>isogeny-primes</code></h3>
-        <p>Joint with M. Derickx.</p>
-        <p>Input: a number field $K$.<br>
-           Output: a provably correct <em>superset</em> of $\mathrm{IsogPrimeDeg}(K)$.</p>
-        <p>Sweeping it across the LMFDB cubic fields gives a finite upper bound for strong uniformity in degree 3.</p>
-        <p><small>&darr; what's inside</small></p>
+        <img src="figures/dataset/disc_verdict_histogram.png" alt="Discriminant histogram by verdict" style="max-height: 600px; max-width: 100%;">
     </section>
     <section>
-        <h3>What's inside</h3>
-        <ul>
-            <li>Galois representations attached to $E[p]$.</li>
-            <li>Isogeny characters &rarr; constraints on $p$ from class field theory.</li>
-            <li>Auxiliary primes; Frobenius traces.</li>
-            <li>Output: a finite, often small, set of candidate $p$.</li>
+        <p>There is a way of generating YESs from plugging in rational $x$-values into one of the $5$ hyperelliptic curves, via a converse to our theorem,</p>
+        <p class="fragment">but the discriminants obtained are enormous.</p>
+        <p class="fragment">Artificially balancing the dataset with this gave us a dataset of the following distribution:</p>
+    </section>
+    <section>
+        <img src="figures/dataset/disc_balanced_histogram.png" alt="Balanced discriminant histogram" style="max-height: 600px; max-width: 100%;">
+    </section>
+    <section>
+        <p>The features we used in the dataset:</p>
+        <p style="font-size: 0.7em;"><code>class_group</code>, <code>class_number</code>, <code>conductor</code>, <code>disc_abs</code>, <code>index</code>, <code>monogenic</code>, <code>narrow_class_group</code>, <code>narrow_class_number</code>, <code>num_ram</code>, <code>z1</code>, <code>z2</code>, &hellip;, <code>z30</code></p>
+        <p style="font-size: 0.75em;"><em>(<code>z1</code>&ndash;<code>z30</code> are the first 30 zeta coefficients.)</em></p>
+    </section>
+
+    <section>
+        <p>We trained (1) XGBoost, (2) Random Forest on this balanced dataset, 80/20 train-test split.</p>
+        <p style="font-size: 0.7em;"><strong>Test set</strong> (held-out 20%, 2049 rows, balanced):</p>
+        <table style="font-size: 0.65em; margin: 0.3em auto;">
+            <thead><tr><th>Model</th><th>accuracy</th><th>ROC-AUC</th><th>PR-AUC</th></tr></thead>
+            <tbody>
+                <tr><td>XGBoost</td><td>0.9946</td><td>0.9996</td><td>0.9996</td></tr>
+                <tr><td>RandomForest</td><td>0.9932</td><td>0.9993</td><td>0.9994</td></tr>
+            </tbody>
+        </table>
+        <p style="font-size: 0.7em; margin-top: 0.6em;"><strong>Top features</strong> (XGBoost):</p>
+        <table style="font-size: 0.6em; margin: 0.3em auto;">
+            <thead><tr><th>feature</th><th>gain</th><th>permutation &Delta; PR-AUC</th></tr></thead>
+            <tbody>
+                <tr><td><code>index</code></td><td>0.769</td><td>0.257</td></tr>
+                <tr><td><code>z3</code></td><td>0.027</td><td>0.000</td></tr>
+                <tr><td><code>z2</code></td><td>0.019</td><td>0.000</td></tr>
+                <tr><td><code>z27</code></td><td>0.015</td><td>&mdash;</td></tr>
+                <tr><td><code>z6</code></td><td>0.015</td><td>&mdash;</td></tr>
+                <tr><td><code>class_group_rank</code></td><td>0.014</td><td>&mdash;</td></tr>
+                <tr><td><code>z29</code></td><td>&mdash;</td><td>0.0004</td></tr>
+                <tr><td><code>num_ram</code></td><td>&mdash;</td><td>0.0003</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>What did the model actually learn?</h3>
+        <p style="font-size: 0.8em;"><code>index</code> carries <strong>77%</strong> of the gain and a <strong>26%</strong> PR-AUC drop under permutation &mdash; basically the entire signal. Why?</p>
+        <table style="font-size: 0.7em; margin: 0.3em auto;">
+            <thead><tr><th></th><th><code>index = 1</code></th><th><code>index &gt; 1</code></th></tr></thead>
+            <tbody>
+                <tr><td>NO (cascade)</td><td>5,014 (96%)</td><td>199 (4%)</td></tr>
+                <tr><td>YES (converse)</td><td>77 (1.5%)</td><td>4,954 (98.5%)</td></tr>
+                <tr><td>Unknowns</td><td>1,779 (95%)</td><td>92 (5%)</td></tr>
+            </tbody>
+        </table>
+        <p class="fragment" style="font-size: 0.75em;"><code>index</code> is almost a perfect class indicator on the balanced training set &mdash; but the unknowns share the NO distribution (overwhelmingly $1$).</p>
+        <p class="fragment" style="font-size: 0.75em;">Predicted on the $1871$ unknowns: only $9$ (XGBoost) / $7$ (RF) flagged YES; median $P(\text{YES}) = 0.0001$.</p>
+        <p class="fragment" style="font-size: 0.85em;"><strong>The model isn't learning the mathematics; it's learning the data provenance &mdash; which is a perfect proxy for the label only because we built it that way.</strong></p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h3>The honest experiment: LMFDB-only</h3>
+        <ul style="font-size: 0.85em;">
+            <li>Train CSV: <code>master_features.csv</code> &mdash; <strong>5,314 rows</strong> (5,213 NO + 101 YES), ~52:1 imbalance.</li>
+            <li>5-fold stratified CV on labelled rows; metrics on out-of-fold predictions.</li>
+            <li>Three models compared: Weighted XGBoost, Focal-loss XGBoost ($\gamma = 2$), Isolation Forest (anomaly detection on NO rows).</li>
         </ul>
     </section>
-    <section>
-        <h3>Sample run</h3>
-        <pre><code class="language-bash">$ sage isogeny_primes.py 'x^3 - x - 1'</code></pre>
-        <p>Returns a finite superset of $\mathrm{IsogPrimeDeg}(K)$ for $K = \mathbb{Q}[x]/(x^3 - x - 1)$.</p>
-        <p><small>Strong uniformity mode: <code>sage uniform_isogeny_primes.py 3</code>.</small></p>
-    </section>
-</section>
 
-<section>
     <section>
-        <h3>The hard part: realization</h3>
-        <p>For each candidate prime $p$, decide whether some cubic $K$ and $E/K$ witness $p$ as an isogeny degree.</p>
-        <p>Equivalently: for which $p$ does $X_0(p)$ admit a non-cuspidal cubic point?</p>
-        <p><small>&darr; status on small primes</small></p>
-    </section>
-    <section>
-        <h3>Status on small primes</h3>
-        <ul>
-            <li>$p = 73$: cubic points on $X_0(73)$ are finite and classified — benign.</li>
-            <li>$p \in \{23, 29, 31\}$: open. The live targets for this talk.</li>
+        <h3>Results</h3>
+        <p style="font-size: 0.75em;">Out-of-fold metrics across 5-fold stratified CV (101 YES across all folds):</p>
+        <table style="font-size: 0.7em; margin: 0.4em auto;">
+            <thead><tr><th>Model</th><th>ROC-AUC</th><th>PR-AUC</th><th>YES in top-50</th><th>Lift</th></tr></thead>
+            <tbody>
+                <tr><td><strong>Weighted XGBoost</strong></td><td><strong>0.969</strong></td><td><strong>0.724</strong></td><td><strong>47 / 101</strong></td><td><strong>~49&times;</strong></td></tr>
+                <tr><td>Focal-loss XGBoost</td><td>0.944</td><td>0.576</td><td>36 / 101</td><td>~38&times;</td></tr>
+                <tr><td>Isolation Forest</td><td>0.723</td><td>0.097</td><td>10 / 101</td><td>~10&times;</td></tr>
+            </tbody>
+        </table>
+        <p style="font-size: 0.6em; color: #777;">(Random would put ~$0.95$ YES rows in the top 50.)</p>
+        <ul class="fragment" style="font-size: 0.7em;">
+            <li><strong>The PR-AUC gap is decisive.</strong> ROC-AUC is forgiving under heavy imbalance (it averages over the 5,213 negatives); PR-AUC is the honest metric when YES is rare. Weighted XGBoost beats focal by $0.15$ absolute (~25% relative) on PR-AUC, and beats Isolation Forest by $0.63$ &mdash; a different planet.</li>
+            <li>Same ordering at <em>every</em> recall@$k$ we measured.</li>
+            <li>At top-200 (&lt; 4% of the dataset), Weighted XGBoost captures 76% of all YES rows.</li>
+            <li>Isolation Forest treats YES as anomalies &mdash; barely beats random, because YES cubics aren't anomalous, just <em>structured</em>.</li>
         </ul>
     </section>
-</section>
 
-<section>
-    <h3>The AI experiment</h3>
-    <p><em>[to fill in]</em></p>
-    <aside class="notes">
-        Two cheap oracles: low-height point search (lower bound), <code>isogeny-primes</code> (upper bound).
-        ML resolves the gap.
-    </aside>
-</section>
+    <section>
+        <h3>Top features (Weighted XGBoost)</h3>
+        <img src="figures/feature_importance/03_comparison_top20.png" alt="Feature importance comparison" style="max-height: 500px; max-width: 100%;">
+    </section>
 
-<section>
-    <h3>Thanks</h3>
-    <p>Questions?</p>
+    <section>
+        <h3>Top features &mdash; permutation importance</h3>
+        <img src="figures/feature_importance/04_xgb_permutation.png" alt="XGBoost permutation importance" style="max-height: 480px; max-width: 100%;">
+        <p style="font-size: 0.7em;"><code>disc_abs</code> dominates ($\Delta$ PR-AUC $\approx 0.66$), with <code>z29</code>, <code>class_group_max</code>, <code>z19</code>, <code>z3</code>, <code>regulator</code> following.</p>
+        <p class="fragment" style="font-size: 0.75em;">&#x26A0; Yellow flag: heavy <code>disc_abs</code> reliance &mdash; this drove the rest of the experiments.</p>
+    </section>
+
+    <section>
+        <h3>Honest vs. cautionary</h3>
+        <table style="font-size: 0.65em; margin: 0.4em auto;">
+            <thead><tr><th></th><th>LMFDB-only (52:1)</th><th>Balanced + converse-engineered (1:1)</th></tr></thead>
+            <tbody>
+                <tr><td>Test PR-AUC</td><td>0.72</td><td>0.9996</td></tr>
+                <tr><td>Distribution shift?</td><td>None</td><td>Baked in</td></tr>
+                <tr><td>Transfers to unknowns?</td><td>Yes</td><td>No (predicts NO for nearly all)</td></tr>
+                <tr><td>What was learned?</td><td>Real signal</td><td>A label proxy (<code>index</code>)</td></tr>
+            </tbody>
+        </table>
+        <p class="fragment" style="font-size: 0.85em;">The first one is the <strong>honest result</strong>. The second is the <strong>cautionary tale</strong>.</p>
+    </section>
 </section>
 
 </div>
