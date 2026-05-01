@@ -1,0 +1,13 @@
+{
+  "name": "cubic-isogeny-primes-slides",
+  "version": "0.1.0",
+  "description": "Reveal.js slides for the Math+AI workshop talk",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "katex": "^0.16.45",
+    "reveal.js": "^6.0.1"
+  }
+}

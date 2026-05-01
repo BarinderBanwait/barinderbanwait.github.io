@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Realizing cubic isogeny primes: AI-assisted experiments</title>
+
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro.css">
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section class="title-slide">
+    <h2>Realizing cubic isogeny primes</h2>
+    <p class="subtitle"><em>AI-assisted experiments</em></p>
+
+    <p class="speaker">Barinder S. Banwait</p>
+    <p class="joint"><small>Joint with Maarten Derickx</small></p>
+
+    <p class="venue">Math+AI workshop &middot; 27 April 2026</p>
+
+    <div class="follow-strip">
+        <figure class="qr">
+            <img src="images/qr_follow_along.png" alt="QR code to slides"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="qr-placeholder" style="display:none;">QR</div>
+        </figure>
+        <span class="follow-label">Follow along: <code>barindersbanwait.com/talks/cubic-isogeny-primes</code></span>
+    </div>
+</section>
+
+<section>
+    <section>
+        <!-- <h3>The uniformity question</h3> -->
+        <p>$E/\mathbb{Q}$ elliptic curve.</p>
+
+        <div class="thm-row">
+            <figure class="row-photo">
+                <img src="images/barry_mazur.jpg" alt="Barry Mazur, 1992">
+                <figcaption>Mazur, 1992<br><small>G.M. Bergman, CC BY-SA 4.0</small></figcaption>
+            </figure>
+            <div class="thm">
+                <div class="thm-title">Theorem (Mazur, 1978)</div>
+                <div class="thm-body">
+                    <p>If $E/\mathbb{Q}$ is an elliptic curve admitting a rational $p$-isogeny, then
+                    $$p \in \{2,\,3,\,5,\,7,\,11,\,13,\,17,\,19,\,37,\,43,\,67,\,163\}.$$</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thm-row">
+            <figure class="row-photo">
+                <img src="images/john_cremona.jpg" alt="John Cremona">
+                <figcaption>John Cremona<br><small>(my advisor)</small></figcaption>
+            </figure>
+            <div class="thm que">
+                <div class="thm-title">Question (Cremona)</div>
+                <div class="thm-body">
+                    <p>Mazur did this for $\mathbb{Q}$ in '78 &mdash; can you do it for any other number field?</p>
+                </div>
+            </div>
+        </div>
+
+        <p><small>&darr; Mazur's list</small></p>
+    </section>
+    <section>
+        <h3>Mazur's list</h3>
+        <p>$\mathrm{IsogPrimeDeg}(\mathbb{Q}) = \{2, 3, 5, 7, 11, 13, 17, 19, 37, 43, 67, 163\}.$</p>
+        <p>Twelve primes. The largest, $163$, is famously connected to $\mathbb{Q}(\sqrt{-163})$ having class number one.</p>
+    </section>
+</section>
+
+<section>
+    <h3>Why $d = 3$</h3>
+    <ul>
+        <li>A cubic field contains no imaginary quadratic subfield.</li>
+        <li>So the usual non-CM caveat is automatic.</li>
+        <li>Cleaner than $d = 2$.</li>
+    </ul>
+</section>
+
+<section>
+    <section>
+        <h3>The tool: <code>isogeny-primes</code></h3>
+        <p>Joint with M. Derickx.</p>
+        <p>Input: a number field $K$.<br>
+           Output: a provably correct <em>superset</em> of $\mathrm{IsogPrimeDeg}(K)$.</p>
+        <p>Sweeping it across the LMFDB cubic fields gives a finite upper bound for strong uniformity in degree 3.</p>
+        <p><small>&darr; what's inside</small></p>
+    </section>
+    <section>
+        <h3>What's inside</h3>
+        <ul>
+            <li>Galois representations attached to $E[p]$.</li>
+            <li>Isogeny characters &rarr; constraints on $p$ from class field theory.</li>
+            <li>Auxiliary primes; Frobenius traces.</li>
+            <li>Output: a finite, often small, set of candidate $p$.</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Sample run</h3>
+        <pre><code class="language-bash">$ sage isogeny_primes.py 'x^3 - x - 1'</code></pre>
+        <p>Returns a finite superset of $\mathrm{IsogPrimeDeg}(K)$ for $K = \mathbb{Q}[x]/(x^3 - x - 1)$.</p>
+        <p><small>Strong uniformity mode: <code>sage uniform_isogeny_primes.py 3</code>.</small></p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h3>The hard part: realization</h3>
+        <p>For each candidate prime $p$, decide whether some cubic $K$ and $E/K$ witness $p$ as an isogeny degree.</p>
+        <p>Equivalently: for which $p$ does $X_0(p)$ admit a non-cuspidal cubic point?</p>
+        <p><small>&darr; status on small primes</small></p>
+    </section>
+    <section>
+        <h3>Status on small primes</h3>
+        <ul>
+            <li>$p = 73$: cubic points on $X_0(73)$ are finite and classified — benign.</li>
+            <li>$p \in \{23, 29, 31\}$: open. The live targets for this talk.</li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <h3>The AI experiment</h3>
+    <p><em>[to fill in]</em></p>
+    <aside class="notes">
+        Two cheap oracles: low-height point search (lower bound), <code>isogeny-primes</code> (upper bound).
+        ML resolves the gap.
+    </aside>
+</section>
+
+<section>
+    <h3>Thanks</h3>
+    <p>Questions?</p>
+</section>
+
+</div>
+</div>
+
+<script type="module">
+    import Reveal from './node_modules/reveal.js/dist/reveal.mjs';
+    import RevealMath from './node_modules/reveal.js/dist/plugin/math.mjs';
+    import RevealNotes from './node_modules/reveal.js/dist/plugin/notes.mjs';
+    import RevealHighlight from './node_modules/reveal.js/dist/plugin/highlight.mjs';
+
+    Reveal.initialize({
+        hash: true,
+        slideNumber: 'c/t',
+        katex: {
+            local: 'node_modules/katex'
+        },
+        plugins: [RevealMath.KaTeX, RevealNotes, RevealHighlight]
+    });
+</script>
+</body>
+</html>
