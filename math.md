@@ -13,6 +13,7 @@ I also contribute to development of the [_L-functions and modular forms database
 
 ### Papers (most recent first)
 
+1. **Second derivatives of _p_-adic _L_-functions and the Shafarevich--Tate group of rank-two CM elliptic curves**. 2026. Submitted. [arxiv](https://arxiv.org/abs/2609.08431)
 1. **Decision trees, Frobenius traces, and Weierstrass coefficients of elliptic curves**, with Xiaoyu Huang, Kyu-Hwan Lee, Seewoo Lee, Thomas Oliver and Alexey Pozdnyakov. 2026. Submitted. [arxiv](https://arxiv.org/abs/2607.24251)
 1. **A formal proof of the Ramanujan--Nagell theorem in Lean 4**. 2026. Submitted. [arxiv](https://arxiv.org/abs/2604.09808)
 1. **On the Visibility category of the Shafarevich--Tate group**, with Jerson Caro and Shiva Chidambaram. 2026. Submitted. [arxiv](https://arxiv.org/abs/2601.21519). [Video](https://icerm.brown.edu/video_archive/4183)
