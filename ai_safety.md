@@ -1,16 +1,16 @@
 ---
 layout: default
 title: "On collective restraint"
-logo: "mugshots/me_at_bcnc_open_mic.jpg"
+logo: "mugshots/bamboo_circle_koan.jpg"
 description: "Presenting a Koan at Bamboo Circle Open Mic Night, Boston, MA, February 2025."
 permalink: /ai-safety/
 ---
 
 ## On collective restraint
 
-*Draft, 25 September 2026.*
+*25 September 2026.*
 
-The AI safety argument I am going to disagree with is Point 4 of Eliezer Yudkowsky's [AGI Ruin: A List of Lethalities](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities).
+This short post critiques Point 4 of Eliezer Yudkowsky's [AGI Ruin: A List of Lethalities](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities).
 
 He argues that there is a time limit in which we need to figure out how to handle AGI safely, and that restraint on developing and applying AI is not a lasting, permanent solution; at best it can only buy more time. His wording is:
 
@@ -26,4 +26,4 @@ Indeed, there is historical precedent for this collective restraint. The Asiloma
 
 Where I see this restraint going is to bring about a culture-shift among AI researchers that they are engaged in an incredibly consequential endeavour that could have civilisation-cancelling consequences. Upon entering their studies or research, they should take some sort of AI equivalent of the Hippocratic Oath, reaffirmed upon graduation, that (a) human life is of fundamental and unquestionable dignity and meaning, that (b) they must consider the consequences upon human life and society of any action they take towards creating or modifying any AI, and be held to account for said consequences, that (c) they refuse any work they deem unsafe and immoral, and that (d) their primary responsibility is to humanity itself, not to any company or country. This can create a more cautious mindset among the companies engaged in this work, and will encourage more collective restraint and discourage a 'race mindset' that, as Yudkowsky illustrates so candidly, will kill us all. In short, these professional norms can shape the behaviour of the very 'weak actors' that Yudkowsky worries about.
 
-To conclude, I am not saying that Yudkowsky is necessarily wrong. The progression of events he outlines could totally happen, and it is rational to be very worried about it. I am just pointing out that his argument does not give enough weight to the possibility that scientists and leaders and society actually get organised and create a sea change and culture shift that could significantly mitigate the risk of AGI.
+None of this is to say that Yudkowsky is necessarily wrong. The progression of events he outlines could totally happen, and it is rational to be very worried about it. I am just pointing out that his argument does not give enough weight to the possibility that scientists and leaders and society actually get organised and create a sea change and culture shift that could significantly mitigate the risk of AGI.
